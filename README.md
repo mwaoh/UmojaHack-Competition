@@ -28,3 +28,13 @@ Once the algorithm has been trained, it should be tested on a set of new Rubik's
 Depending on the results of the testing, the algorithm may need to be refined by adjusting its parameters or using a different algorithm altogether. The process of refining the algorithm may involve iterating through steps 6 and 7 until a satisfactory level of performance is achieved.
 
 Overall, training a reinforcement learning algorithm for a Rubik's Cube is a complex process that requires a lot of computational resources and expertise in machine learning.
+
+
+##Overview
+Reinforcement learning is a powerful technique that can be used to solve the Rubik's Cube. The first step in solving the Rubik's Cube using reinforcement learning is to define the problem as a Markov decision process (MDP). An MDP consists of a set of states, actions, rewards, and a transition function that describes the probability of moving from one state to another when an action is taken.
+
+Once the MDP is defined, you can use an RL algorithm, such as Q-learning or policy gradients, to learn a policy that maximizes the cumulative reward over time. The policy is a mapping from states to actions, and it tells the agent what action to take in each state.
+
+To train an RL agent to solve the Rubik's Cube, you can use a simulator to generate training data. The simulator should take a state and an action as input and return the next state and the reward obtained by taking that action in that state. You can then use this data to train the RL agent to learn a policy that maximizes the cumulative reward over time.
+
+As for the most performing parameters, it depends on the specific RL algorithm and the problem being solved. Generally, you can try different hyperparameters such as the learning rate, discount factor, exploration rate, and the size of the neural network (if applicable) to find the best-performing ones for your specific problem
