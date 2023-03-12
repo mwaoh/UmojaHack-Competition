@@ -30,7 +30,7 @@ Depending on the results of the testing, the algorithm may need to be refined by
 Overall, training a reinforcement learning algorithm for a Rubik's Cube is a complex process that requires a lot of computational resources and expertise in machine learning.
 
 
-##Overview
+## Overview
 Reinforcement learning is a powerful technique that can be used to solve the Rubik's Cube. The first step in solving the Rubik's Cube using reinforcement learning is to define the problem as a Markov decision process (MDP). An MDP consists of a set of states, actions, rewards, and a transition function that describes the probability of moving from one state to another when an action is taken.
 
 Once the MDP is defined, you can use an RL algorithm, such as Q-learning or policy gradients, to learn a policy that maximizes the cumulative reward over time. The policy is a mapping from states to actions, and it tells the agent what action to take in each state.
